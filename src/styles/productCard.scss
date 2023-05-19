@@ -1,0 +1,54 @@
+@import "utils";
+
+.productCard{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    transition: all 0.3s;
+    box-shadow: rgba(0,0,0, 0.2)  5px 10px 15px;
+    &:hover{
+        transform: scale(1.1);
+    }
+    
+    >.image{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.discription{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    font-family: "poppins";
+    align-items: center;
+    justify-content: center;
+    
+} 
+.rank{
+    color:$color-secondry;
+    padding: 0.5rem;
+}
+
+.name{
+    text-decoration: none;
+    color:$color-secondry;
+    font-family: $text2;
+    font-size: 0.8rem;
+    padding:1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+
+
+
+

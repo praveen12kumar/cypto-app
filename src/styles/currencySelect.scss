@@ -1,0 +1,26 @@
+@import"utils";
+.currencyContainer{
+    
+    padding: 1rem ;
+    position: sticky;
+    left: 0;
+    top: 6rem;
+
+    p{
+        
+        margin-top: 2rem;
+        font-size: 1.1rem;
+        font-weight: 700;
+        font-family: $text1;
+        letter-spacing: 2px;
+        padding: 1rem 0px;
+    }
+    >.currency{
+        padding:0.3rem;
+        >label{
+            
+            padding-left: 0.3rem;
+            font-family: "poppins";
+        }
+    }
+}
